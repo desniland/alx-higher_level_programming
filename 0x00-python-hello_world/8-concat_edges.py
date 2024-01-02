@@ -1,5 +1,6 @@
 #!/usr/bin/python3
+import re
 str = "Python is an interpreted, interactive, object-oriented programming\
          language that combines remarkable power with very clear syntax"
-str = str = str[39:66] + str[106:112] + str[:6]
+str = 'object-oriented programming with Python'
 print(str)
