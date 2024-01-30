@@ -9,7 +9,7 @@ Usage
 =====
 
 ``add_integer(...)``` returns the addition of its two arguments. For numbers,
-that value is equivalent to using the ``+`` operator.
+that value is same as using the addition operator.
 
 ::
 
@@ -19,17 +19,17 @@ that value is equivalent to using the ``+`` operator.
 
 ::
 
->>> add_integer(2, -3)
--1
+>>> add_integer(2, -4)
+-2
 
 The function also works with floating-point values.
 
 ::
 
->>> add_integer(2.0, 3.0)
-5
+>>> add_integer(3.0, 3.0)
+6
 
-Note that floats are casted to ints before addition is performed.
+Note that floats are casted to integer before addition is performed.
 
 ::
 
@@ -48,7 +48,7 @@ Floating and non-floating point values can be combined.
 >>> add_integer(2.3, -3)
 -1
 
-The second argument is optional - by default, it is 98.
+The 2nd argument is optional; by default, it is 98.
 
 ::
 
@@ -85,7 +85,7 @@ TypeError: a must be an integer
 Traceback (most recent call last):
 TypeError: b must be an integer
 
-If both arguments are non-integers and non-floats, a TypeError message is only
+If both arguments are not integers and floats, a TypeError message is only
 printed for the first argument.
 
 ::
