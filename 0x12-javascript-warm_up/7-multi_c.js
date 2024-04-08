@@ -1,4 +1,6 @@
 #!/usr/bin/node
+
+//prints x times “C is fun”
 if (isNaN(process.argv[2] || process.argv[2] === undefined)) {
     console.log('Missing number of occurrences');
 } else {
