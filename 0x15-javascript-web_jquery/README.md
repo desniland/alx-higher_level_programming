@@ -1,7 +1,7 @@
 # 0x15-javascript-web_jquery
 
 ##Learning Objectives
-- At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+- At the end of this project, I am  expected to be able to explain to anyone, without the help of Google:
 
 ##General
 - Why JQuery make front-end programming so easy (don’t forget to tweet today, with the hashtag #ilovejquery :))

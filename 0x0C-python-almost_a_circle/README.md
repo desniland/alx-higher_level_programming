@@ -1,7 +1,8 @@
 # Python - Almost a circle
 
-I built a program in Python that uses special building blocks called "classes" to represent rectangles and squares. These classes are like mini-programs that 
-store information about the shapes and can do things like calculate their area and other functions. To make sure my program works correctly, I wrote tests for each class using a tool called "unittest". It's like checking your work with a special ruler to make sure everything is the right size and shape.
+![Circle](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/331/giphy.mp4)
+
+In this project, I encapsulated all skills in Python object-oriented programming by coding three connected classes to represent rectangles and squares. I wrote my own test suite using the `unittest` module to test all functionality for each class.
 
 The three classes involved utilizing the following Python tools:
 * Import
@@ -17,15 +18,15 @@ The three classes involved utilizing the following Python tools:
 
 ## Tests :heavy_check_mark:
 
-* [tests](./tests): Folder containing the following independently-developed test files:
-  * [test_parent.py](./tests/test_parent.py)
-  * [test_rectangle.py](./tests/test_rectangle.py)
-  * [test_square.py](./tests/test_square.py)
+* [tests/test_models](./tests/test_models): Folder containing the following independently-developed test files:
+  * [test_base.py](./tests/test_models/test_base.py)
+  * [test_rectangle.py](./tests/test_models/test_rectangle.py)
+  * [test_square.py](./tests/test_models/test_square.py)
 
-## Classes:
+## Classes :cl:
 
 ### Base
-Represents the "Base" class for all other classes in the project. Includes:
+Represents the "base" class for all other classes in the project. Includes:
 
 * Private class attribute `__nb_objects = 0`.
 * Public instance attribute `id`.

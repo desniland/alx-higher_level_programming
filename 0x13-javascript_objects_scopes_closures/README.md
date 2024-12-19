@@ -1,7 +1,7 @@
 # Javascript - Objects, Scopes and and Closures
 
 # Learning Objectives
-- At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+- At the end of this project, I am expected to be able to explain to anyone, without the help of Google:
 
 # General
 - Why JavaScript programming is amazing
